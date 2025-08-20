@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="h1">Spacebar starts or resets the game</div>
+    <div class="h2">Eat the ice blocks 🧊</div>
+    <div id="gameContainer">
+        <canvas id="gameBoard"></canvas>
+        <div id="score">score:</div>
+    </div>
+    <div id="difficultySizeContainer">
+        <div id="difficultyContainer">
+        <div>Select Difficulty:</div>
+        
+        <div>
+            <input type="checkbox" id="easy" name="difficulty" value="easy">
+            <label for="easy">Easy</label>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="medium" name="difficulty" value="medium" checked>
+            <label for="medium">Medium</label>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="hard" name="difficulty" value="hard">
+            <label for="hard">Hard</label>
+        </div>
+        </div>
+        <div id="sizeContainer">
+            <div>Select Size:</div>
+            
+            <div>
+                <input type="checkbox" id="small" value="small">
+                <label for="easy">Small</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="normal" name="difficulty" value="normal" checked>
+                <label for="medium">Medium</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="large" name="difficulty" value="large">
+                <label for="hard">Large</label>
+            </div>
+        </div>
+    </div>
+  
+
+<script src="index.js"></script>
+</body>
+</html>

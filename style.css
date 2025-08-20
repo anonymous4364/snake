@@ -1,0 +1,75 @@
+/* ========================
+   GLOBAL & BODY
+======================== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Permanent Marker", Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #cce6ff, #ffffff); /* icy sky gradient */
+    color: #001f33; /* dark blue for contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+}
+
+.h1, .h2 {
+    text-align: center;
+    font-size: 1.8rem; /* reduced from 2rem */
+    margin: 0.45rem;   /* reduced from 0.5rem */
+    color: #003366; /* icy dark blue */
+    text-shadow: 1px 1px 3px #ffffff;
+}
+
+/* ========================
+   GAME CONTAINER
+======================== */
+#gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6f2ff; /* light icy background for the board */
+    padding: 0.9rem; /* reduced from 1rem */
+    border-radius: 18px; /* reduced from 20px */
+    box-shadow: 0 0 13.5px #99ccff, 0 0 27px #cce6ff inset; /* reduced glow slightly */
+}
+
+/* ========================
+   CANVAS / GAME BOARD
+======================== */
+#gameBoard {
+    border: 3.6px solid #99ccff; /* reduced from 4px */
+    background-color: #f0f8ff; /* ice white board */
+    border-radius: 9px; /* reduced from 10px */
+    box-shadow: 0 0 9px #99ccff, 0 0 4.5px #cce6ff inset; /* reduced shadow */
+}
+
+/* ========================
+   SCORE DISPLAY
+======================== */
+#score {
+    font-size: 2.7rem; /* reduced from 3rem */
+    margin-top: 0.9rem; /* reduced from 1rem */
+    color: #001f33; /* dark blue */
+    text-shadow: 1px 1px 4.5px #ffffff; /* reduced slightly */
+}
+
+/* ========================
+   DIFFICULTY RADIOS
+======================== */
+#difficultyContainer, #sizeContainer {
+    display: flex;
+    gap: 1.35rem; /* reduced from 1.5rem */
+    font-size: 1.35rem; /* reduced from 1.5rem */
+    margin: 0.9rem 0; /* reduced from 1rem */
+}
+
+#difficultyContainer input[type="radio"], #sizeContainer input[type="radio"]{
+    margin-right: 0.36rem; /* reduced from 0.4rem */
+    accent-color: #3399ff; /* icy blue highlight for radio */
+}
+#difficultySizeContainer{
+    display: flex;
+    gap: 2rem;
+}
